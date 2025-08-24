@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Kuromi Pop It</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Kuromi Pop It</h1>
+    <div id="game-container">
+        <div id="popit">
+            <!-- Bubbles will be inserted here by JavaScript -->
+        </div>
+    </div>
+    <div id="controls-container">
+        <button id="reset-btn">Reset</button>
+        <div id="chat-container">
+            <div id="chat-header">
+                <button id="mic-btn">🎤</button>
+            </div>
+            <div id="chat-history">
+                <div class="chat-message ai-message">Nyehehe! What do you want?</div>
+            </div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Talk to Kuromi..." autocomplete="off">
+                <button type="submit" id="send-btn">➤</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
